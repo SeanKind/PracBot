@@ -16,7 +16,7 @@ namespace PracticeBot
         {
             _client = new DiscordSocketClient();
             _client.Log += Log;
-            var token = "NzQ2MTkwMzc5NTE0MzMxMTU2.Xz8t8g.UOsfki68hDae9MHTJ_ARHj_IAyA";
+            var token = "NzQ2MTkwMzc5NTE0MzMxMTU2.Xz8t8g.Nb5CeUdiS_ETcw5JqT-r4R-9ZL4";
             await _client.LoginAsync(TokenType.Bot, token);
             await _client.StartAsync();
             await Task.Delay(-1);
