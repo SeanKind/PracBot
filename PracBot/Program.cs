@@ -21,7 +21,7 @@ namespace PracticeBot
             _commands = new CommandService();
             _commandHandler = new CommandHandler(_client, _commands);
             _client.Log += Log;
-            var token = "NzQ2MTkwMzc5NTE0MzMxMTU2.Xz8t8g.Nb5CeUdiS_ETcw5JqT-r4R-9ZL4";
+            var token = "";
             await _commandHandler.InstallCommandsAsync();
             await _client.LoginAsync(TokenType.Bot, token);
             await _client.StartAsync();
